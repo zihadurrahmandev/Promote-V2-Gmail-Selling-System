@@ -159,6 +159,7 @@ public function activateAccount() {
 
 
 
+
 public function gmailSellMake(Request $request){
         try {
         $request->validate([
