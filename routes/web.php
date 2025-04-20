@@ -1,5 +1,6 @@
-    Route::get('/user/gmail', 'gmailSell')->name('user.gmail');
-    Route::post('/user/gmail', 'gmailSellMake');
+Route::get('/user/gmail', 'gmailSell')->name('user.gmail');
+Route::post('/user/gmail', 'gmailSellMake');
+Route::get('/user/activate', 'activateAccount')->name('user.activate.account');
 
 
 
